@@ -1,10 +1,10 @@
 # Site settings
-title: Goddard Fiin
-email: me@goddardfiin.com
+title: Goddard Finn
+email: me@goddardfinn.com
 description: "Describing your movie!"
-baseurl: "/goddard-fiin"
+baseurl: "/goddard-finn"
 url: "http://goddardfiin.com"
-twitter_username: goddardfiin
+twitter_username: goddardfinn
 
 # Build settings
 markdown: kramdown
