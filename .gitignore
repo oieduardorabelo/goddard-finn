@@ -1,3 +1,4 @@
 _site
+_bower_components
 .DS_Store
 .sass-cache
