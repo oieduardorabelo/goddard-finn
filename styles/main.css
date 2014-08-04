@@ -407,3 +407,66 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+
+/* ----------------------------------------------------------*/
+/* CUSTOM GOODARD FINN THEME */
+/* ----------------------------------------------------------*/
+.site-footer {
+  text-align: center;
+}
+
+.site-footer .hero-small {
+  color: #666;
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px;
+}
+
+.hero-image {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 80px;
+}
+
+.hero-image.goddard-finn {
+  background-image: url(../images/goddard-finn-background.jpg);
+}
+
+.weekly-actors {
+  padding-bottom: 200px;
+  position: relative;
+  transition: all linear 200ms;
+}
+
+.actor-name {
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  color: #DEDEDE;
+  font-size: 18px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+  transform: scale(0);
+  opacity: 0;
+  transition: all linear 125ms;
+}
+
+.weekly-actors:hover .actor-name,
+.weekly-actors:active .actor-name{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.row.actors:hover .weekly-actors:not(:hover) {
+  opacity: .5
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    text-align: inherit;
+  }
+}
