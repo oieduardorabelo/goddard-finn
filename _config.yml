@@ -9,3 +9,5 @@ twitter_username: goddardfinn
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+actors: ["one", "two", "three", "four"]
