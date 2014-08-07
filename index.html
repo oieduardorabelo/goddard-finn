@@ -4,16 +4,18 @@ layout: default
 
 <div class="home">
 
-  <h1>Latest reviews</h1>
+  <div class="post-header">
+    <h1>Latest reviews</h1>
+  </div>
 
-  <ul class="posts">
+  <div class="row posts">
     {% for post in site.posts %}
-      <li>
+      <div class="post-item col-xs-12 col-sm-6">
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 
   {% include actors.html %}
 
