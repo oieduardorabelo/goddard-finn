@@ -17,9 +17,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #1abc9c; text-decoration: none; }
+a:hover, a:visited:hover   { color: #333; text-decoration: underline; }
+a:visited { color: #16a085; }
 
 /* Utility */
 
@@ -412,6 +412,24 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 /* CUSTOM GOODARD FINN THEME */
 /* ----------------------------------------------------------*/
+.post-item {
+  height: 100px;
+  transition: all linear 125ms;
+}
+
+/*.post-link:hover {
+  background: #ececec;
+  border-bottom: 1px solid #1abc9c;
+  border-top: 1px solid #1abc9c;
+  border-left: 4px solid #16a085;
+  padding: 30px;
+  text-decoration: none;
+}*/
+
+.post-page .post-header h1 {
+  color: #16a085;
+}
+
 .site-footer {
   text-align: center;
 }
@@ -428,6 +446,9 @@ a:visited { color: #205caa; }
   background-position: center top;
   background-size: cover;
   padding: 80px;
+
+  transition: all linear 125ms;
+  transform: translateZ(0deg);
 }
 
 .hero-image.goddard-finn {
@@ -465,8 +486,23 @@ a:visited { color: #205caa; }
   opacity: .5
 }
 
+@media (min-width: 580px) {
+  .hero-image.goddard-finn {
+    padding-bottom: 200px;
+  }
+}
+
 @media (min-width: 768px) {
+  .hero-image.goddard-finn {
+    padding-bottom: 300px;
+  }
   .site-footer {
     text-align: inherit;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-image.goddard-finn {
+    padding-bottom: 400px;
   }
 }
