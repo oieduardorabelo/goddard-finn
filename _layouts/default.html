@@ -5,19 +5,23 @@
 
 <body>
 
-  {% include header.html %}
+  <main class="main-element">
+    <header class="main-header">
+        <div class="bg-clip"></div>
+        <div class="main-name">
+          <h1 class="name">Goddard Finn</h1>
+          <h2 class="work">director.reviewer.critic.</h2>
+        </div>
+        <img src="images/avatar.jpg" alt="Goddard Finn" class="main-avatar">
+    </header>
+    <section class="main-content">
+      {{ content }}
+    </section>
+    <footer>
+      <p class="copy">Copyright &copy; 2014 - Goddard Finn</p>
+    </footer>
+  </main>
 
-  <div class="hero-image goddard-finn"></div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-
-  {% include footer.html %}
 </body>
 
 </html>
