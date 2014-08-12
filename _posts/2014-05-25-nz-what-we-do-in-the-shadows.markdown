@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "NZ movie, 'What we do in the shadows'"
+title:  "What we do in the shadows"
 date:   2014-05-25 10:37:15
 categories: jekyll update
+sinopse: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ea.
+thumb: images/actors/one.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -5,30 +5,33 @@
 
 <body class="post-page">
 
-  {% include header.html %}
+  <main class="main-content">
+    {% include header.html %}
 
-  <div class="hero-image"></div>
+    <div class="hero-image"></div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="post">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="post">
 
-          <header class="post-header">
-            <h1>{{ page.title }}</h1>
-            <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-          </header>
+            <header class="post-header">
+              <h1>{{ page.title }}</h1>
+              <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            </header>
 
-          <article class="post-content">
-            {{ content }}
-          </article>
+            <article class="post-content">
+              {{ content }}
+            </article>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </main>
+
 </body>
 
 </html>
