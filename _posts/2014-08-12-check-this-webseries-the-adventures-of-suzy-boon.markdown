@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Actually, just do it"
-date:   2014-06-25 16:37:15
+title:  "Check this webseries: <br> The Adventures of Suzy Boon"
+date:   2014-08-12 14:30:15
 categories: jekyll update
-sinopse: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ea.
-thumb: images/actors/two.jpg
+thumb: images/thumbs/the-adventures-of-suzy-boon.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
