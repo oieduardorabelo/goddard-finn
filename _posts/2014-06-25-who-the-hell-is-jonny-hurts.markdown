@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "My cool web series"
-date:   2014-07-12 16:37:15
+title:  "Who the hell is Jonny Hurts?"
+date:   2014-06-25 16:37:15
 categories: jekyll update
-sinopse: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ea.
-thumb: images/actors/four.jpg
+thumb: images/thumbs/comic-con.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
