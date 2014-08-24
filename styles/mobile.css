@@ -1,0 +1,9 @@
+@media (min-width: 604px) {
+  .main-content {
+    padding-top: 100px;
+  }
+
+  .post {
+    margin-top: 3em;
+  }
+}

@@ -8,15 +8,15 @@ layout: default
       <div class="col-md-6">
         <h2>Recent stuff</h2>
         {% for post in site.posts %}
-          <div class="review media">
-            <a class="avatar-link pull-left" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="review media" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="avatar-link pull-left">
               <img src="{{post.thumb}}" width="160" alt="Actors">
-            </a>
+            </div>
             <div class="media-body">
               <h3 class="media-heading review-title brand-1">{{post.title}}</h3>
-              <p><strong>{{ post.date | date: "%-d %b, %Y" }}</strong></p>
+              <p class="post-date"><strong>{{ post.date | date: "%-d %b, %Y" }}</strong></p>
             </div>
-          </div>
+          </a>
         {% endfor %}
       </div>
       <div class="col-md-5 col-md-offset-1">
@@ -30,7 +30,7 @@ layout: default
 <div class="best-of-the-week container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Best of the week</h1>
+      <h2>Video of the week</h2>
     </div>
   </div>
 </div>

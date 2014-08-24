@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A review of a film called REVIEW"
+title:  "Loopholes on REVIEW"
 date:   2014-07-12 16:37:15
 categories: jekyll update
 thumb: images/thumbs/a-review-of-a-film-called-review.jpg
