@@ -80,6 +80,7 @@ h2 {
 }
 
 .weekly-actors {
+  display: block;
   position: relative;
   overflow: hidden;
 }
@@ -118,7 +119,9 @@ h2 {
 }
 
 .weekly-actors:hover .overlay,
-.weekly-actors:hover .actor-name {
+.weekly-actors:hover .actor-name,
+.weekly-actors:focus .overlay,
+.weekly-actors:focus .actor-name {
   transform: scale(1);
   visibility: visible;
   opacity: 1;
@@ -133,7 +136,7 @@ h2 {
 }
 
 .review:hover,
-.review:active {
+.review:focus {
   background: #fff;
   text-decoration: none;
   outline: 4px solid #c10d0d;
