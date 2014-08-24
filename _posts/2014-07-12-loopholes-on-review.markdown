@@ -5,7 +5,7 @@ date:   2014-07-12 16:37:15
 categories: jekyll update
 thumb: images/thumbs/a-review-of-a-film-called-review.jpg
 ---
-<img src="{{page.thumb}}" width="160" alt="Actors" class="pull-left thumb-post">
+<img src="{{ page.thumb | prepend: site.baseurl }}" width="160" alt="Actors" class="pull-left thumb-post">
 
 So, let's talk about **REVIEW**, this messy hodge podge of ideas, by New Zealand director Jonny Hurts.
 
