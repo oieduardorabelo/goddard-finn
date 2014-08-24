@@ -11,3 +11,4 @@ markdown: kramdown
 permalink: :title
 
 actors: ["one", "two", "three", "four"]
+actors_name: { "one": "Andreys", "two": "Jonathan <br> Brugh", "three": "Simon <br> Johnson", "four": "Louis" }
