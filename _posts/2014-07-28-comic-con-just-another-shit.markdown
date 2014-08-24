@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comic Con 2014, just another shit!"
+title:  "Highlights of Comic Con 2014"
 date:   2014-07-28 16:37:15
 categories: jekyll update
 thumb: /images/thumbs/comic-con.jpg
