@@ -1,7 +1,7 @@
 <div class="row actors">
   {% for actor in site.actors %}
-    <div class="col-xs-6 col-sm-3 hero-image weekly-actors" style="background-image: url({{ "/images/actors/" | prepend: site.baseurl | append: actor | append: ".jpg" }})">
-      <p class="actor-name">{{actor}}</p>
+    <div class="col-xs-6 hero-image weekly-actors" style="background-image: url()">
+      <img src="{{ "/images/actors/" | prepend: site.baseurl | append: actor | append: ".jpg" }}" alt="">
     </div>
   {% endfor %}
 </div>
