@@ -8,6 +8,6 @@ twitter_username: goddardfinn
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: title
 
 actors: ["one", "two", "three", "four"]
