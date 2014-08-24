@@ -73,6 +73,13 @@ h2 {
   position: absolute;
   width: 256px;
   z-index: 1;
+  transition: all ease-out 180ms;
+}
+
+.main-avatar-link:hover .main-avatar,
+.main-avatar-link:focus .main-avatar {
+  border-color: #c10d0d;
+  border-width: 24px;
 }
 
 .main-content {
