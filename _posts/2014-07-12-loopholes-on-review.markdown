@@ -3,7 +3,7 @@ layout: post
 title:  "Loopholes on REVIEW"
 date:   2014-07-12 16:37:15
 categories: jekyll update
-thumb: images/thumbs/a-review-of-a-film-called-review.jpg
+thumb: /images/thumbs/a-review-of-a-film-called-review.jpg
 ---
 <img src="{{ page.thumb | prepend: site.baseurl }}" width="160" alt="Actors" class="pull-left thumb-post">
 

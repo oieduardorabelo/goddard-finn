@@ -3,7 +3,7 @@ layout: post
 title:  "Check this webseries: <br> The Adventures of Suzy Boon"
 date:   2014-08-12 14:30:15
 categories: jekyll update
-thumb: images/thumbs/the-adventures-of-suzy-boon.jpg
+thumb: /images/thumbs/the-adventures-of-suzy-boon.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -10,7 +10,7 @@ layout: default
         {% for post in site.posts %}
           <a class="review media" href="{{ post.url | prepend: site.baseurl }}">
             <div class="avatar-link pull-left">
-              <img src="{{post.thumb}}" width="160" alt="Actors">
+              <img src="{{ post.thumb | prepend: site.baseurl }}" width="160" alt="Actors">
             </div>
             <div class="media-body">
               <h3 class="media-heading review-title brand-1">{{post.title}}</h3>

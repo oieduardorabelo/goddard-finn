@@ -3,7 +3,7 @@ layout: post
 title:  "Who the hell is Jonny Hurts?"
 date:   2014-06-25 16:37:15
 categories: jekyll update
-thumb: images/thumbs/jonny-hurts.jpg
+thumb: /images/thumbs/jonny-hurts.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
