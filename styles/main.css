@@ -119,6 +119,10 @@ h2 {
   padding: 1em;
 }
 
+.thumb-post {
+  margin: 0 1em 1em 0;
+}
+
 .back-to-articles {
   /*background: #efefef;*/
   border-width: 1px;
