@@ -10,5 +10,12 @@ twitter_username: goddardfinn
 markdown: kramdown
 permalink: :title
 
-actors: ["one", "two", "three", "four"]
-actors_name: { "one": "Andreys", "two": "Jonathan <br> Brugh", "three": "Simon <br> Johnson", "four": "Louis" }
+actors: ["one", "two", "three", "four", "five", "six"]
+actors_name: {
+  "one": "Andreys <br> Sukhomlinov",
+  "two": "Kate",
+  "three": "Sheena <br> Langguth",
+  "four": "Simon <br> Johnson",
+  "five": "Jonathan <br> Brugh",
+  "six": "No name"
+}
