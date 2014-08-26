@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The new wave of cinema mexicano"
+title:  "The new wave of cinema brazuca"
 date:   2014-05-25 10:37:15
 categories: jekyll update
-thumb: /images/thumbs/comic-con.jpg
+thumb: /images/thumbs/brazuca.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
