@@ -13,7 +13,7 @@ permalink: :title
 actors: ["one", "two", "three", "four", "five", "six"]
 actors_name: {
   "one": "Andreys <br> Sukhomlinov",
-  "two": "Kate",
+  "two": "Kate <br> Simmonds",
   "three": "Sheena <br> Langguth",
   "four": "Simon <br> Johnson",
   "five": "Jonathan <br> Brugh",
